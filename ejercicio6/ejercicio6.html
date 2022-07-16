@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="/controlador-registro" method="post" class="form-registro" enctype="multipart/form-data">
+            <h1>Registrar un usuario</h1>
+    
+            <label for="nombre">Nombre del usuario</label>
+            <br> 
+            <input type="text" name="nombre" placeholder="Nombre y apellido" required>
+            <br>
+        
+            <label for="contasenia">Contraseña del usuario</label>
+            <br> 
+            <input type="password" name="contrasenia" required>
+            <br>
+        
+            <label for="edad">Edad del usuario</label>
+            <br> 
+            <input type="number" name="edad">
+            <br>
+        
+            <label for="fecha">Fecha de Nacimiento del usuario</label>
+            <br>
+            <input type="date" name="fecha">
+            <br>
+        
+            <label>Sexo del usuario</label>
+            <br>
+            <input type="radio" id="hombre" name="sexo" value="h">
+            <label for="hombre">Hombre</label>
+            <br>
+            <input type="radio" id="mujer" name="sexo" value="m">
+            <label for="mujer">Mujer</label>
+            <br>
+            <input type="radio" id="otro" name="sexo" value="x">
+            <label for="otro">Otro</label>
+            <br>
+        
+            <label>Pais nacimiento del usuario</label>
+            <br>
+            <select name="pais">
+                <option value="Arg">Argentina</option>
+                <option value="Uy">Uruguay</option>
+                <option value="otro">otro</option>
+            </select>
+            <br>
+        
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </section>
+</body>
+</html>

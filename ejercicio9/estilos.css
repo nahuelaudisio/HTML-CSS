@@ -1,0 +1,60 @@
+/*
+    9. A partir del siguiente código HTML proporcionado, añadir las reglas CSS necesarias 
+    para que la página resultante tenga el mismo aspecto que el de la siguiente imagen:
+*/
+#subtitulo{
+color: blue;
+}
+#titulo {
+    color: cadetblue;
+}
+
+#adicional {
+    color: rgb(92, 129, 27);
+}
+
+.destacado1 {
+    color: red;
+}
+
+.destacado2 {
+    color: orange;
+}
+
+.purpura {
+    color: rgb(189, 51, 189);
+}
+
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.naranja {
+    color: orange;
+}
+
+tbody {
+    color: green;
+}
+
+.rosa {
+    color: palevioletred;
+}
+
+.verde {
+    color: rgb(7, 92, 7);
+}
+
+.strong{
+    color: red;
+}
